@@ -53,7 +53,7 @@ This project is ideal for:
 ---
 
 ## 📸 Screenshots
-[!Product Landing Page Screenshot](screenshot.PNG)
+![Product Landing Page Screenshot](screenshot.PNG)
 
 ---
 
