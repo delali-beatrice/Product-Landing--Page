@@ -1,0 +1,196 @@
+html{
+    scroll-behavior: smooth;
+    width: 100%;
+}
+body{
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;    
+}
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+#navbar{
+    margin-top: 0;
+    background-color: #333;
+    padding: 20px;
+    height: 180px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.nav-menu a{
+    color:white;
+    text-decoration: none;
+    text-align: justify;
+    padding: 10px;
+}
+
+.nav-menu a:hover{
+    color:aqua;
+}
+.nav-menu{
+    list-style-type: none;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    text-align: right;
+    white-space: nowrap;
+}
+.intro{
+    width:80%;
+    margin: auto;
+    text-align: center;
+}
+#submit{
+    background-color: gold;
+    width:150px;
+    height:40px;
+    display: block;
+    margin: 20px auto;
+    border: none;
+    border-radius: 5px;
+    font-size: 23px;
+    font-weight: bold;
+}
+#mail{
+    width: 300px;
+    padding: 5px;
+}
+
+#logo{  /* styles the text after the image */
+    font-size: 25px;
+    font-weight: bold;
+    height: 210px;
+    width: 100%;
+    color: white;
+    padding-bottom: 25px;
+    padding-top: 35px;
+    
+} 
+#logo h3{
+    text-align: left;
+    padding: 50px;
+}
+#logo img{
+    border-radius: 60%;
+    border: 2px solid black;
+    height: 200px;
+    width: auto;
+    float: left;
+    
+}
+section{
+    width: 80%;
+    margin: auto;
+}
+.features, .how-it-works, .pricing{
+    scroll-margin-top: 300px;
+}
+/*Feature section styling */
+.features i{
+    color: gold;
+    padding: 10px;
+}
+.features h3{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+.features p{
+    text-align: justify;
+    font-size: 18px;
+    margin-top: 0;
+}
+
+/* Iframe styling */
+iframe{
+    margin-top: 20px;
+    margin-left: 70px;
+    height: 450px;
+}
+
+/* Price Section Styling */
+.pricing{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+.price-card{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    border: 1px solid #b3aeae;
+    padding-bottom: 20px;
+    height: auto;
+}
+.price-card h4{
+    background-color: #b3aeae;
+    height: 30px;
+    padding-top: 10px;
+    margin-top: 0;
+}
+.price-card > .price{
+    font-style: oblique;
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+}
+.price-card p{
+    text-align: center;
+    padding: 10px;
+}
+.price-card button{
+    background-color: rgb(252, 181, 3);
+    color: #333;
+    border: 0;
+    height: 40px;
+    width: 80px;
+    font-size: 15px;
+}
+.price-card button:hover{
+   background-color: gold;
+   color: black;
+}
+
+/* footer styling */
+footer{
+    text-align: center;
+    background-color: rgb(209, 207, 207);
+    height: 50px;
+    padding-top: 10px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+footer a{
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+}
+
+/* media quereies */
+@media (max-width: 600px) {
+    iframe{
+        width:90%;
+        height: 300px;
+        margin-left: 30px;
+    }
+    header{
+        width: 100%;
+    }
+    #navbar{
+        width: 100%;
+        height:260px;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+    .features, .how-it-works, .pricing{
+    scroll-margin-top: 250px;
+}
+}
